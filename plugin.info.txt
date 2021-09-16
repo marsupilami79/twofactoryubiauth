@@ -1,0 +1,7 @@
+﻿base   twofactorYubiauth
+author Michael Wilmes, Christian Harders
+email  mwilmes@avc.edu, c.harders97@gmail.com
+date   2018-06-28, 2021-09-15
+name   Two Factor Authentication - Yubi Authenticator Plugin
+desc   Yubi Authenticator support plugin for the Twofactor authentication plugin.
+url    https://www.dokuwiki.org/plugin:twofactoryubiauth
