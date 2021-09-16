@@ -1,6 +1,6 @@
 ﻿twofactorYubiauth Plugin for DokuWiki
 
-Yubi Authenticator support plugin for the Twofactor authentication plugin.
+Yubikey support plugin for the Twofactor authentication plugin.
 
 All documentation for this plugin can be found at
 https://www.dokuwiki.org/plugin:twofactoryubiauth
