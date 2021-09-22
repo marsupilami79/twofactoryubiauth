@@ -29,7 +29,7 @@ class PHP_YubiAuthenticator
         foreach ($results as $item) {
             $delpos = strpos($item,'=');
             if($delpos == false) continue;
-            $response[substr($item,0,$delpos)] = substr($item, $delpos+1);
+            $response[substr($item,0,$delpos)] = trim(substr($item, $delpos+1));
         }
 
         return $response["status"]=="OK";

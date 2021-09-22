@@ -41,7 +41,7 @@ class helper_plugin_twofactoryubiauth extends Twofactor_Auth_Module {
 			// Provide a checkbox to create a personal secret.
 			$elements[] = form_makeCheckboxField('yubiauth_enable', '1', $this->getLang('enablemodule'), '', 'block');
             // Provide text field for setup OTP
-            $elements[] = form_makeTextField('yubiauth_setup', '', $this->getLang('needsetup'), '', 'block', array('size'=>'44'));
+            $elements[] = form_makePasswordField('yubiauth_setup', $this->getLang('needsetup'), '', 'block', array('size'=>'44'));
 		}
 		return $elements;
 	}
